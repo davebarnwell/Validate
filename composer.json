@@ -1,0 +1,21 @@
+{
+  "name": "Freshsauce/Validate",
+  "description": "Various validators that can be used for sanitising input data",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Barnwell",
+      "email": "dave@freshsauce.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Freshsauce\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
